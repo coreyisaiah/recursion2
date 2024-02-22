@@ -27,6 +27,7 @@ function exponent(num, power) {
     }
     if (power < 0){
         return (1/exponent(num, Math.abs(power)))
+      //return 1/num * exponent(num, power + 1)
     }
 }
 
